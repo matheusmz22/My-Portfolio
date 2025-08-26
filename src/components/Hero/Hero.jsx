@@ -53,7 +53,7 @@ function Hero() {
         //////////////////////////
         //// MOBILE VERSION //////
         //////////////////////////
-        <div className="container mx-auto md:mx-auto w-fit lg:px-20">
+        <div className="container mx-auto md:mx-auto w-full lg:px-20">
           <div className="flex flex-col items-center justify-center gap-8 mt-12 md:flex-row md:items-center md:mt-20 lg:justify-between lg:gap-20">
             <div className="mt-8 w-50 h-50">
               <img
@@ -63,14 +63,14 @@ function Hero() {
               />
             </div>
 
-            <div className="flex flex-col items-center text-center   text-paragraphs">
-              <p className="text-titles text-4xl mb-4">
+            <div className="flex flex-col items-center text-center text-paragraphs">
+              <p className="text-titles text-3xl sm:text-4xl mb-4">
                 Hi, I'm{" "}
-                <span className="text-name text-[2.6rem] italic font-semibold">
+                <span className="text-name text-[2.1rem] sm:text-[2.6rem] italic font-semibold">
                   Matheus Zucchi.
                 </span>
               </p>
-              <p className="text-xl w-sm">
+              <p className="text-xl mx-8 sm:text-2xl">
                 <strong>Front-End Developer</strong> building fast and modern
                 web applications with
               </p>
@@ -86,11 +86,11 @@ function Hero() {
                   ariaLabel="Technology tools"
                 />
               </div>
-              <p className="text-accent mt-15 flex items-center justify-center  gap-2 font-semibold">
+              <p className="text-accent mt-8 flex items-center justify-center gap-2 font-semibold">
                 <GoDotFill color="#90a955" />
                 Available
               </p>
-              <div className="flex flex-col items-center gap-4 mt-8   ">
+              <div className="flex flex-col items-center gap-4 mt-4   ">
                 <a
                   href="./Matheus-Zucchi-Resume.pdf"
                   className="bg-navbarlight p-2.5 rounded-3xl text-text-button cursor-pointer w-48 text-lg  font-semibold transition-all"
