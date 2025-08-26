@@ -1,6 +1,6 @@
 import { SunIcon } from "@heroicons/react/16/solid";
 import { useMediaQuery } from "react-responsive";
-import CardNav from "../../CardNav";
+import CardNav from "./CardNav";
 
 function Navbar({ isDarkMode, setIsDarkMode }) {
   const isMobile = useMediaQuery({ maxWidth: 767 }); // Up to 767px is mobile
@@ -26,7 +26,7 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-hero-light via-hero-medium to-body h-screen p-5">
+    <div>
       {isMobile ? (
         <CardNav
           items={items}
@@ -36,10 +36,10 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
         />
       ) : (
         <div className="text-text-navbar">
-          <nav className="bg-navbar flex justify-between md:w-[46rem] md:h-15 lg:w-4xl mx-auto rounded-[1.1rem] lg:h-17 items-center p-5 font-semibold">
+          <header className="bg-navbar flex justify-between md:w-[50rem] md:h-19 lg:w-[58rem] mx-auto rounded-[1.1rem] lg:h-20 my-6 items-center p-5 font-semibold">
             <a
-              href="/"
-              className="font-signature font-bold text-2xl cursor-pointer"
+              href="#home"
+              className="font-signature font-bold text-[2.5rem] cursor-pointer"
             >
               Matheus Zucchi
             </a>
@@ -47,7 +47,7 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
               <li>
                 <a
                   href="#about"
-                  className="cursor-pointer hover:text-text-navbarhover"
+                  className="cursor-pointer hover:text-text-navbarhover text-2xl"
                 >
                   About
                 </a>
@@ -55,7 +55,7 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
               <li>
                 <a
                   href="#projects"
-                  className="cursor-pointer hover:text-text-navbarhover"
+                  className="cursor-pointer hover:text-text-navbarhover text-2xl"
                 >
                   Projects
                 </a>
@@ -63,7 +63,7 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
               <li>
                 <a
                   href="#contact"
-                  className="cursor-pointer hover:text-text-navbarhover"
+                  className="cursor-pointer hover:text-text-navbarhover text-2xl"
                 >
                   Contact
                 </a>
@@ -80,7 +80,7 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="size-7"
+                      className="size-8"
                     >
                       <path
                         strokeLinecap="round"
@@ -95,7 +95,7 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="size-7"
+                      className="size-8"
                     >
                       <path
                         strokeLinecap="round"
@@ -107,7 +107,7 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
                 </button>
               </li>
             </ul>
-          </nav>
+          </header>
         </div>
       )}
     </div>
