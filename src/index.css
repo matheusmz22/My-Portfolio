@@ -231,3 +231,55 @@ body {
     font-size: 15px;
   }
 }
+
+.dark {
+  --color-hero-light: #435c82;
+  --color-hero-medium: #243349;
+  --color-body: #1e293b;
+
+  --color-text-navbar: #505050;
+  --color-text-navbarhover: #454545;
+
+  --color-accent: #90a955;
+  --color-text-button: #394223;
+  --color-text-buttonhover: #212614;
+
+  --color-navbar: #c3e08095;
+  --color-navbarlight: #c3e080;
+
+  --color-card: #0f151e;
+  --color-card-border: #696969;
+
+  --color-button-seework: #38bdf8;
+  --color-text-seework: #9ce0fe;
+
+  --color-paragraphs: #d0d0d0;
+  --color-titles: #f0f0f0;
+  --color-name: #fff;
+}
+
+.light {
+  --color-hero-light: red;
+  --color-hero-medium: red;
+  --color-body: red;
+
+  --color-text-navbar: red;
+  --color-text-navbarhover: red;
+
+  --color-accent: red;
+  --color-text-button: red;
+  --color-text-buttonhover: red;
+
+  --color-navbar: red;
+  --color-navbarlight: red;
+
+  --color-card: red;
+  --color-card-border: red;
+
+  --color-button-seework: red;
+  --color-text-seework: red;
+
+  --color-paragraphs: red;
+  --color-titles: red;
+  --color-name: red;
+}
