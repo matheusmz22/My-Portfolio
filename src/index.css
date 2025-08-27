@@ -186,7 +186,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 777px) {
   .card-nav-container {
     position: fixed;
     width: 80%;
@@ -230,7 +230,7 @@ body {
   }
 
   .nav-card-label {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1;
     font-weight: 550;
     margin: 0;
@@ -238,6 +238,17 @@ body {
 
   .nav-card-link {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 620px) {
+  .nav-card-label {
+    font-size: 22px;
+  }
+}
+@media (max-width: 440px) {
+  .nav-card-label {
+    font-size: 18px;
   }
 }
 

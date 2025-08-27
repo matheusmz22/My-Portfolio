@@ -51,7 +51,7 @@ function About({ isMobile }) {
                 I'm currently focused on:
               </p>
 
-              <div className="font-semibold  mt-2 ml-[2.19rem] text-xl sm:text-[1.3rem]">
+              <div className="font-semibold  mt-2 ml-[2.19rem] text-[1.2rem] sm:text-[1.34rem]">
                 <div className="flex items-center justify-start ">
                   <GoDotFill className="h-2 mr-2" />
                   <div className="flex flex-wrap items-center gap-2">
