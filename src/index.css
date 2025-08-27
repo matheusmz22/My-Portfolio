@@ -21,10 +21,10 @@
   --color-button-seework: #38bdf8;
   --color-text-seework: #9ce0fe;
 
-  --color-paragraphs: #d0d0d0;
-  --color-paragraphs-about: #e5e5e5;
-  --color-titles: #f0f0f0;
   --color-name: #fff;
+  --color-titles: #f0f0f0;
+  --color-paragraphs-about: #e5e5e5;
+  --color-paragraphs: #d0d0d0;
 
   --color-html: #dd4b25;
   --color-css: #254bdd;
@@ -188,6 +188,7 @@ body {
 
 @media (max-width: 768px) {
   .card-nav-container {
+    position: fixed;
     width: 90%;
     top: 1.2em;
   }
@@ -229,7 +230,7 @@ body {
   }
 
   .nav-card-label {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1;
     font-weight: 550;
     margin: 0;

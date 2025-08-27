@@ -1,4 +1,3 @@
-import LightRays from "./LightRays";
 import {
   SiCss3,
   SiHtml5,
@@ -50,8 +49,8 @@ function Hero({ isMobile }) {
         //////////////////////////
         //// MOBILE VERSION //////
         //////////////////////////
-        <div className="container mx-auto md:mx-auto w-full lg:px-20">
-          <div className="flex flex-col items-center justify-center gap-8 mt-12 md:flex-row md:items-center md:mt-20 lg:justify-between lg:gap-20">
+        <div className="container mx-auto w-full">
+          <div className="flex flex-col items-center justify-center gap-8 mt-12 ">
             <div className="mt-8 w-50 h-50">
               <img
                 src="../../images/PicHero.jpg"
@@ -61,13 +60,13 @@ function Hero({ isMobile }) {
             </div>
 
             <div className="flex flex-col items-center text-center text-paragraphs">
-              <p className="text-titles text-xl sm:text-4xl mb-4">
+              <p className="text-titles text-[2rem] sm:text-4xl mb-4">
                 Hi, I'm{" "}
-                <span className="text-name text-[1.6rem] sm:text-[2.6rem] italic font-semibold">
+                <span className="text-name text-[2.4rem] sm:text-[2.6rem] italic font-semibold">
                   Matheus Zucchi.
                 </span>
               </p>
-              <main className="text-xl mx-8 sm:text-2xl">
+              <main className="text-[1.4rem] sm:text-[1.6rem] mx-8 ">
                 <strong>Front-End Developer</strong> building fast and modern
                 web applications with
               </main>
@@ -83,20 +82,20 @@ function Hero({ isMobile }) {
                   ariaLabel="Technology tools"
                 />
               </div>
-              <p className="text-accent mt-8 flex items-center justify-center gap-2 font-semibold">
+              <p className="text-accent mt-8 flex items-center justify-center gap-2 font-semibold text-xl sm:text-[1.3rem]">
                 <GoDotFill color="#90a955" />
                 Available
               </p>
               <div className="flex flex-col items-center gap-4 mt-4   ">
                 <a
                   href="./Matheus-Zucchi-Resume.pdf"
-                  className="bg-navbarlight p-2.5 rounded-3xl text-text-button cursor-pointer w-48 text-lg  font-semibold transition-all"
+                  className="bg-navbarlight p-2.5 rounded-3xl text-text-button cursor-pointer w-54 text-[1.4rem] sm:text-2xl sm:p-3 sm:w-54 font-semibold transition-all"
                 >
                   View Resume
                 </a>
                 <a
                   href="#projects"
-                  className="border border-button-seework rounded-3xl text-text-seework p-1 text-sm cursor-pointer w-48   "
+                  className="border border-button-seework rounded-3xl text-text-seework p-2 text-md cursor-pointer w-50  sm:text-lg "
                 >
                   See my work
                 </a>
@@ -110,11 +109,11 @@ function Hero({ isMobile }) {
         //////////////////////////
 
         <div className="container mx-auto md:mx-auto w-fit lg:px-20">
-          <div className="flex text-paragraphs items-center lg:w-4xl md:w-[-1px] ">
-            <div className="lg:mr-52 ">
-              <p className="text-titles text-3xl w-sm my-4 md:text-2xl lg:text-3xl">
+          <div className="flex text-paragraphs items-center lg:w-4xl">
+            <div className="lg:mr-52 md:mr-26">
+              <p className="text-titles text-3xl w-sm my-4 md:text-3xl lg:text-3xl">
                 Hi, I'm{" "}
-                <span className="text-name lg:text-4xl md:text-3xl italic font-semibold">
+                <span className="text-name lg:text-[2.3rem] md:text-[2.1] italic font-semibold">
                   Matheus Zucchi.
                 </span>
               </p>
@@ -149,14 +148,14 @@ function Hero({ isMobile }) {
                   href="./Matheus-Zucchi-Resume.pdf"
                   className="flex items-center justify-center border border-button-seework rounded-3xl text-text-seework p-1 text-sm cursor-pointer w-28 hover:bg-button-seework hover:text-black transition-all text-center"
                 >
-                  View Resume
+                  See my work
                 </a>
               </div>
             </div>
             <div className="w-80 rounded-2xl mt-[-2rem]  md:ml-0 md:w-full hover:scale-105 transition-transform">
               <img
                 src="../../images/PicHero.jpg"
-                className="w-full h-full rounded-full shadow-2xl md:w-50 md:h-50 lg:w-80 lg:h-80"
+                className="w-full h-full rounded-full shadow-2xl md:w-70 md:h-70 lg:w-80 lg:h-80"
                 alt="Picture of Matheus Zucchi"
               />
             </div>

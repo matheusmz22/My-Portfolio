@@ -33,9 +33,9 @@ function Navbar({ isDarkMode, setIsDarkMode, isMobile }) {
         />
       ) : (
         <div className="text-text-navbar mt-12">
-          <header className="bg-navbar flex justify-between md:w-[40rem] md:h-19 lg:w-[58rem] mx-auto rounded-[1.1rem] lg:h-20 my-6 items-center p-5 font-semibold">
+          <header className="bg-navbar flex justify-between md:w-[50rem] md:h-19 lg:w-[58rem] mx-auto rounded-[1.1rem] lg:h-20 my-6 items-center p-5 font-semibold">
             <a
-              href="#home"
+              href="/"
               className="font-signature font-bold text-[2.5rem] cursor-pointer md:text-3xl"
             >
               Matheus Zucchi

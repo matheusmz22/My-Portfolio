@@ -4,10 +4,11 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import { useMediaQuery } from "react-responsive";
+import MyProjects from "./components/Projects/MyProjects";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
-  const isMobile = useMediaQuery({ maxWidth: 767 });
+  const isMobile = useMediaQuery({ maxWidth: 780 });
 
   return (
     <>
@@ -15,8 +16,10 @@ function App() {
         <Navbar isMobile={isMobile} />
         <Hero isMobile={isMobile} />
       </div>
-
-      <About isMobile={isMobile} />
+      <div className="bg-body p-1 h-full">
+        <About isMobile={isMobile} />
+        <MyProjects isMobile={isMobile} />
+      </div>
     </>
   );
 }
