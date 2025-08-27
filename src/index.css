@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-hero-light: #435c82;
-  --color-hero-medium: #243349;
+  --color-hero-light: #353e4f;
   --color-body: #1e293b;
 
   --color-text-navbar: #505050;
   --color-text-navbarhover: #454545;
 
   --color-accent: #90a955;
+  --color-accenthover: #6e823e;
   --color-text-button: #394223;
   --color-text-buttonhover: #212614;
 
@@ -22,8 +22,16 @@
   --color-text-seework: #9ce0fe;
 
   --color-paragraphs: #d0d0d0;
+  --color-paragraphs-about: #e5e5e5;
   --color-titles: #f0f0f0;
   --color-name: #fff;
+
+  --color-html: #dd4b25;
+  --color-css: #254bdd;
+  --color-javascript: #d4b830;
+  --color-react: #61dbfb;
+  --color-next: #e5e5e5;
+  --color-tailwindcss: #35bef8;
 }
 
 @font-face {
@@ -208,7 +216,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
     height: 50px;
   }
 
@@ -221,7 +229,7 @@ body {
   }
 
   .nav-card-label {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1;
     font-weight: 550;
     margin: 0;

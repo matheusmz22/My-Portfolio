@@ -1,4 +1,3 @@
-import { useMediaQuery } from "react-responsive";
 import LightRays from "./LightRays";
 import {
   SiCss3,
@@ -11,9 +10,7 @@ import {
 import LogoLoop from "./LogoLoop";
 import { GoDotFill } from "react-icons/go";
 
-function Hero() {
-  const isMobile = useMediaQuery({ maxWidth: 767 });
-
+function Hero({ isMobile }) {
   const techLogos = [
     {
       node: <SiHtml5 color="#dd4b25" />,
@@ -48,7 +45,7 @@ function Hero() {
   ];
 
   return (
-    <section id="#home">
+    <section id="home">
       {isMobile ? (
         //////////////////////////
         //// MOBILE VERSION //////
@@ -58,23 +55,23 @@ function Hero() {
             <div className="mt-8 w-50 h-50">
               <img
                 src="../../images/PicHero.jpg"
-                className="rounded-full"
+                className="rounded-full object-cover"
                 alt="Picture of Matheus Zucchi"
               />
             </div>
 
             <div className="flex flex-col items-center text-center text-paragraphs">
-              <p className="text-titles text-3xl sm:text-4xl mb-4">
+              <p className="text-titles text-xl sm:text-4xl mb-4">
                 Hi, I'm{" "}
-                <span className="text-name text-[2.1rem] sm:text-[2.6rem] italic font-semibold">
+                <span className="text-name text-[1.6rem] sm:text-[2.6rem] italic font-semibold">
                   Matheus Zucchi.
                 </span>
               </p>
-              <p className="text-xl mx-8 sm:text-2xl">
+              <main className="text-xl mx-8 sm:text-2xl">
                 <strong>Front-End Developer</strong> building fast and modern
                 web applications with
-              </p>
-              <div className="mt-9 w-xs">
+              </main>
+              <div className="mt-9 w-3xs">
                 <LogoLoop
                   logos={techLogos}
                   speed={30}
@@ -113,19 +110,19 @@ function Hero() {
         //////////////////////////
 
         <div className="container mx-auto md:mx-auto w-fit lg:px-20">
-          <div className="flex text-paragraphs items-center mt-20 lg:w-4xl">
+          <div className="flex text-paragraphs items-center lg:w-4xl md:w-[-1px] ">
             <div className="lg:mr-52 ">
-              <p className="text-titles text-3xl w-sm mb-4">
+              <p className="text-titles text-3xl w-sm my-4 md:text-2xl lg:text-3xl">
                 Hi, I'm{" "}
-                <span className="text-name text-4xl italic font-semibold">
+                <span className="text-name lg:text-4xl md:text-3xl italic font-semibold">
                   Matheus Zucchi.
                 </span>
               </p>
-              <p className="text-2xl mt-[-6px]">
+              <p className="text-2xl md:w-[20rem]">
                 <strong>Front-End Developer</strong> building fast and modern
                 web applications with
               </p>
-              <div className="mt-12 md:w-[25rem] sm:w-[20rem]">
+              <div className="mt-12 md:w-[15rem] sm:w-[20rem] lg:w-[22rem]">
                 <LogoLoop
                   logos={techLogos}
                   speed={30}
@@ -156,14 +153,12 @@ function Hero() {
                 </a>
               </div>
             </div>
-            <div>
-              <div className="w-80 rounded-2xl mt-[-2rem] lg:ml-0.5 md:ml-22">
-                <img
-                  src="../../images/PicHero.jpg"
-                  className="w-full h-full rounded-full shadow-2xl "
-                  alt="Picture of Matheus Zucchi"
-                />
-              </div>
+            <div className="w-80 rounded-2xl mt-[-2rem]  md:ml-0 md:w-full hover:scale-105 transition-transform">
+              <img
+                src="../../images/PicHero.jpg"
+                className="w-full h-full rounded-full shadow-2xl md:w-50 md:h-50 lg:w-80 lg:h-80"
+                alt="Picture of Matheus Zucchi"
+              />
             </div>
           </div>
         </div>

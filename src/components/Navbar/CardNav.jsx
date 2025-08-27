@@ -8,8 +8,6 @@ const CardNav = ({
   className = "",
   ease = "power3.out",
   baseColor = "#fff",
-  isDarkMode,
-  setIsDarkMode,
 }) => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -134,7 +132,7 @@ const CardNav = ({
           <div className="logo-container">
             <a
               href="/"
-              className="text-4xl text-text-navbar font-signature font-bold"
+              className="text-2xl text-text-navbar font-signature font-bold"
             >
               Matheus Zucchi
             </a>
