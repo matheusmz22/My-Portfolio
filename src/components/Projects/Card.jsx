@@ -19,7 +19,7 @@ function Card({
         <SpotlightCard
           className={
             isMobile
-              ? "border rounded-3xl border-card-border sm:w-md w-[19rem] mx-auto bg-card hover:scale-105 hover:shadow-2xl"
+              ? "border rounded-3xl border-card-border sm:w-md w-[19rem] mx-auto bg-card"
               : "border rounded-3xl border-card-border w-md mx-auto bg-card hover:scale-105 hover:shadow-2xl"
           }
         >

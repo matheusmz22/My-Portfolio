@@ -4,7 +4,7 @@ import SpotlightCard from "./SpotLightCard";
 function MyProjects({ isMobile }) {
   return (
     <section id="projects">
-      <div className="my-30 p-6 text-paragraphs">
+      <div className="mt-30 mb-20 p-6 text-paragraphs">
         <div
           className={
             isMobile

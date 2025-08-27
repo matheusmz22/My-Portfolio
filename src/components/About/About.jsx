@@ -22,7 +22,7 @@ function About({ isMobile }) {
             </div>
 
             <div>
-              <p className=" mb-6 mx-10 sm:text-[1.45rem] text-[1.4rem]">
+              <p className=" mb-6 mx-10 sm:text-[1.5rem] text-[1rem]">
                 I'm a Brazilian Front-End Developer, recently graduated with an
                 Associate's degree in Computer Science from{" "}
                 <a
@@ -35,23 +35,23 @@ function About({ isMobile }) {
                 .
               </p>
 
-              <p className="mb-6 mx-10 sm:text-[1.45rem] text-[1.4rem]">
+              <p className="mb-6 mx-10 sm:text-[1.5rem] text-[1]">
                 My goal is to become a Full-Stack Developer capable of building
                 complete web applications. Right now, I'm focused on sharpening
                 my front-end skills, and preparing for opportunities in the
                 field.
               </p>
 
-              <p className=" mb-8 mx-10 sm:text-[1.45rem] text-[1.4rem]">
+              <p className=" mb-8 mx-10 sm:text-[1.5rem] text-[1rem]">
                 When I'm not coding, I enjoy going to the gym, learning new
                 programming concepts, and exploring upcoming technologies.
               </p>
 
-              <p className="mx-10 sm:text-[1.45rem] text-[1.4rem]">
+              <p className="mx-10 sm:text-[1.5rem] text-[1rem]">
                 I'm currently focused on:
               </p>
 
-              <div className="font-semibold  mt-2 ml-[2.19rem] text-[1.2rem] sm:text-[1.34rem]">
+              <div className="font-semibold  mt-2 ml-[2.19rem] text-[1rem] sm:text-[1.4rem]">
                 <div className="flex items-center justify-start ">
                   <GoDotFill className="h-2 mr-2" />
                   <div className="flex flex-wrap items-center gap-2">
