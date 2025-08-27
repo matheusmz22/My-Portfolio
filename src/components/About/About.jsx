@@ -55,15 +55,24 @@ function About({ isMobile }) {
                 <div className="flex items-center justify-start ">
                   <GoDotFill className="h-2 mr-2" />
                   <div className="flex flex-wrap items-center gap-2">
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                      target="_blank"
+                    >
                       JavaScript
                     </a>
                     <span>|</span>
-                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+                      target="_blank"
+                    >
                       HTML
                     </a>
                     <span>|</span>
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                      target="_blank"
+                    >
                       CSS
                     </a>
                   </div>
@@ -75,6 +84,7 @@ function About({ isMobile }) {
                     <a
                       href="https://react.dev"
                       className="hover:text-react transition-colors"
+                      target="_blank"
                     >
                       REACT
                     </a>
@@ -82,6 +92,7 @@ function About({ isMobile }) {
                     <a
                       href="https://nextjs.org"
                       className="hover:text-next transition-colors"
+                      target="_blank"
                     >
                       Next.js
                     </a>
@@ -116,6 +127,7 @@ function About({ isMobile }) {
                 className="text-accent font-semibold underline hover:text-accenthover"
                 href="https://www.grossmont.edu"
                 aria-label="Grossmont College Website"
+                target="_blank"
               >
                 Grossmont College
               </a>
@@ -141,6 +153,7 @@ function About({ isMobile }) {
                   <a
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                     className="hover:text-javascript"
+                    target="_blank"
                   >
                     JavaScript
                   </a>{" "}
@@ -148,12 +161,14 @@ function About({ isMobile }) {
                   <a
                     href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
                     className="hover:text-html"
+                    target="_blank"
                   >
                     HTML
                   </a>{" "}
                   <div className="h-5 w-1 border-r border-primary-400 mx-3 " />{" "}
                   <a
                     href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                    target="_blank"
                     className="hover:text-css"
                   >
                     CSS
@@ -161,17 +176,26 @@ function About({ isMobile }) {
                 </li>
                 <li className="flex items-center justify-start transition-all duration-200">
                   <GoDotFill className="h-2" />
-                  <a href="https://react.dev" className="hover:text-react">
+                  <a
+                    href="https://react.dev"
+                    target="_blank"
+                    className="hover:text-react"
+                  >
                     React
                   </a>{" "}
                   <div className="h-5 w-1 border-r border-primary-400 mx-3" />
-                  <a href="https://nextjs.org" className="hover:text-next">
+                  <a
+                    href="https://nextjs.org"
+                    target="_blank"
+                    className="hover:text-next"
+                  >
                     Next.js
                   </a>{" "}
                   <div className="h-5 w-1 border-r border-primary-400 mx-3" />
                   <a
                     href="https://tailwindcss.com"
                     className="hover:text-tailwindcss"
+                    target="_blank"
                   >
                     tailwindcss
                   </a>

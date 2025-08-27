@@ -89,6 +89,7 @@ function Hero({ isMobile }) {
               <div className="flex flex-col items-center gap-4 mt-4   ">
                 <a
                   href="./Matheus-Zucchi-Resume.pdf"
+                  target="_blank"
                   className="bg-navbarlight p-2.5 rounded-3xl text-text-button cursor-pointer w-54 text-[1.4rem] sm:text-2xl sm:p-3 sm:w-54 font-semibold transition-all"
                 >
                   View Resume
@@ -145,7 +146,7 @@ function Hero({ isMobile }) {
                   View Resume
                 </a>
                 <a
-                  href="./Matheus-Zucchi-Resume.pdf"
+                  href="#projects"
                   className="flex items-center justify-center border border-button-seework rounded-3xl text-text-seework p-1 text-sm cursor-pointer w-28 hover:bg-button-seework hover:text-black transition-all text-center"
                 >
                   See my work

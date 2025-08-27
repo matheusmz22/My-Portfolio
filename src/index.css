@@ -189,7 +189,7 @@ body {
 @media (max-width: 768px) {
   .card-nav-container {
     position: fixed;
-    width: 90%;
+    width: 80%;
     top: 1.2em;
   }
 

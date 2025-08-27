@@ -24,9 +24,10 @@ function MyProjects({ isMobile }) {
             alt="Velvet Pour Home Page"
             technologies={["React", "tailwindcss", "GSAP"]}
             title="Velvet Pour"
-            description="Cocktail bar website with advanced animations and immersive transitions, featuring parallax effects and smooth scrolling using React and GSAP"
+            description="Cocktail bar website with advanced animations and immersive transitions, featuring parallax effects and smooth scrolling using React and GSAP."
             liveDemoHref="https://velvetpour-gsapvideoclass-mmz.vercel.app/"
             gitHubHref="https://github.com/matheusmz22/gsap_cocktail_practice"
+            isMobile={isMobile}
           />
           <Card
             screenshot="/images/FastReactPizza.png"
@@ -35,6 +36,7 @@ function MyProjects({ isMobile }) {
             description="Modern pizza ordering app where users can customize pizzas, manage their cart, and track orders in real time with React."
             liveDemoHref="https://fast-react-pizza-reactcourse-mmz.netlify.app/"
             gitHubHref="https://github.com/matheusmz22/fast-react-pizza-ReactCourse"
+            isMobile={isMobile}
           />
           <Card
             screenshot="/images/TheWildOasis.png"
@@ -48,8 +50,9 @@ function MyProjects({ isMobile }) {
             description="Full-featured cabin booking platform built with OAuth authentication, real-time database integration, and Supabase backend."
             liveDemoHref="https://the-wild-oasis-website-matheusmz.vercel.app/"
             gitHubHref="https://github.com/matheusmz22/The-Wild-Oasis-Website"
+            isMobile={isMobile}
           />
-          <Card />
+          <Card isMobile={isMobile} />
         </div>
       </div>
     </section>
