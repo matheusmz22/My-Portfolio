@@ -1,11 +1,12 @@
+import gsap from "gsap";
 import Card from "./Card";
-import SpotlightCard from "./SpotLightCard";
 
 function MyProjects({ isMobile }) {
   return (
     <section id="projects">
-      <div className="mt-30 mb-20 p-6 text-paragraphs">
-        <div
+      <div id="projects-content" className="mt-30 mb-20 p-6 text-paragraphs">
+        <h1
+          id="projects-title"
           className={
             isMobile
               ? "text-3xl text-titles text-center font-semibold p-8 mb-10"
@@ -13,11 +14,11 @@ function MyProjects({ isMobile }) {
           }
         >
           MY PROJECTS
-        </div>
+        </h1>
+
         <div
-          className={
-            "grid grid-cols-1 lg:grid-cols-2 gap-20 gap-x-10 self-end justify-self-center items-stretch mt-20"
-          }
+          id="cards"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-20 gap-x-10 self-end justify-self-center items-stretch mt-20"
         >
           <Card
             screenshot="/images/VelvetPour.png"

@@ -1,12 +1,9 @@
-import gsap from "gsap";
-import { ScrollTrigger, SplitText } from "gsap/all";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
 import { useMediaQuery } from "react-responsive";
-import MyProjects from "./components/Projects/MyProjects";
+import About from "./components/About/About";
 import Contact from "./components/Footer-Contact/Contact";
-gsap.registerPlugin(ScrollTrigger, SplitText);
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
+import MyProjects from "./components/Projects/MyProjects";
 
 function App() {
   const isMobile = useMediaQuery({ maxWidth: 780 });

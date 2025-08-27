@@ -1,6 +1,34 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { SplitText } from "gsap/all";
 import { GoDotFill } from "react-icons/go";
+gsap.registerPlugin(SplitText);
 
 function About({ isMobile }) {
+  useGSAP(() => {
+    const title = document.querySelector("#about-title");
+    if (!title) return;
+
+    const titleSplit = SplitText.create(title, {
+      type: "words",
+    });
+
+    const scrollTimeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#about",
+        start: "top center",
+      },
+    });
+
+    scrollTimeline.from(titleSplit.words, {
+      opacity: 0,
+      duration: 1.5,
+      yPercent: 100,
+      ease: "expo.out",
+      stagger: 0.02,
+    });
+  });
+
   return (
     <section id="about">
       {isMobile ? (
@@ -8,9 +36,12 @@ function About({ isMobile }) {
         //// MOBILE VERSION //////
         //////////////////////////
         <div className="my-20 p-6 text-paragraphs">
-          <div className="text-3xl text-titles text-center font-semibold p-5 mb-2">
+          <h1
+            id="about-title"
+            className="text-3xl text-titles text-center font-semibold p-5 mb-2"
+          >
             ABOUT ME
-          </div>
+          </h1>
 
           <div className="flex flex-col items-center gap-10">
             <div className="w-64 h-80 mb-4">
@@ -115,9 +146,12 @@ function About({ isMobile }) {
         //////////////////////////
         <div className="my-10 p-10 text-paragraphs">
           {" "}
-          <div className="m-auto text-4xl text-titles text-center font-semibold p-5">
+          <h1
+            id="about-title"
+            className="m-auto text-4xl text-titles text-center font-semibold p-5"
+          >
             ABOUT ME{" "}
-          </div>{" "}
+          </h1>{" "}
           <div className="lg:w-4xl mx-auto p-2">
             {" "}
             <p className="lg:text-[1.83rem] md:text-2xl text-center text-paragraphs-about mt-8">

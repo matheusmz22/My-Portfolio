@@ -8,8 +8,38 @@ import {
 } from "react-icons/si";
 import LogoLoop from "./LogoLoop";
 import { GoDotFill } from "react-icons/go";
+import { useGSAP } from "@gsap/react";
+import { SplitText } from "gsap/all";
+import gsap from "gsap";
+gsap.registerPlugin(SplitText);
 
 function Hero({ isMobile }) {
+  useGSAP(() => {
+    const heroSplit = new SplitText(".title", {
+      type: "chars, words",
+    });
+
+    const paragraphSplit = new SplitText(".subtitle", {
+      type: "lines",
+    });
+
+    gsap.from(heroSplit.chars, {
+      yPercent: 100,
+      duration: 0.8,
+      ease: "expo.out",
+      stagger: 0.06,
+    });
+
+    gsap.from(paragraphSplit.lines, {
+      opacity: 0,
+      yPercent: 100,
+      duration: 1.8,
+      ease: "expo.out",
+      stagger: 0.06,
+      delay: 1,
+    });
+  });
+
   const techLogos = [
     {
       node: <SiHtml5 color="#dd4b25" />,
@@ -60,13 +90,13 @@ function Hero({ isMobile }) {
             </div>
 
             <div className="flex flex-col items-center text-center text-paragraphs">
-              <p className="text-titles text-[2rem] sm:text-4xl mb-4">
+              <p className="text-titles text-[2rem] sm:text-4xl mb-4 title">
                 Hi, I'm{" "}
                 <span className="text-name text-[2.4rem] sm:text-[2.6rem] italic font-semibold">
                   Matheus Zucchi.
                 </span>
               </p>
-              <main className="text-[1.4rem] sm:text-[1.6rem] mx-8 ">
+              <main className="text-[1.4rem] sm:text-[1.6rem] mx-8 subtitle">
                 <strong>Front-End Developer</strong> building fast and modern
                 web applications with
               </main>
@@ -112,16 +142,16 @@ function Hero({ isMobile }) {
         <div className="container mx-auto md:mx-auto w-fit lg:px-20">
           <div className="flex text-paragraphs items-center lg:w-4xl">
             <div className="lg:mr-52 md:mr-26">
-              <p className="text-titles text-3xl w-sm my-4 md:text-3xl lg:text-3xl">
+              <p className="text-titles text-3xl w-sm my-4 md:text-3xl lg:text-3xl title">
                 Hi, I'm{" "}
                 <span className="text-name lg:text-[2.3rem] md:text-[2.1] italic font-semibold">
                   Matheus Zucchi.
                 </span>
               </p>
-              <p className="text-2xl md:w-[20rem]">
+              <main className="text-2xl md:w-[20rem] subtitle">
                 <strong>Front-End Developer</strong> building fast and modern
                 web applications with
-              </p>
+              </main>
               <div className="mt-12 md:w-[15rem] sm:w-[20rem] lg:w-[22rem]">
                 <LogoLoop
                   logos={techLogos}
