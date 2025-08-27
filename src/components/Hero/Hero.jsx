@@ -83,7 +83,7 @@ function Hero({ isMobile }) {
                 />
               </div>
               <p className="text-accent mt-8 flex items-center justify-center gap-2 font-semibold text-xl sm:text-[1.3rem]">
-                <GoDotFill color="#90a955" />
+                <GoDotFill color="#8BA352" />
                 Available
               </p>
               <div className="flex flex-col items-center gap-4 mt-4   ">

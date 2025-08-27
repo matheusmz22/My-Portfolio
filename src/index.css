@@ -18,13 +18,16 @@
   --color-card: #0f151e;
   --color-card-border: #696969;
 
+  --color-backgroundfooter: #1b2535;
+
   --color-button-seework: #38bdf8;
   --color-text-seework: #9ce0fe;
 
-  --color-name: #fff;
   --color-titles: #f0f0f0;
   --color-paragraphs-about: #e5e5e5;
   --color-paragraphs: #d0d0d0;
+
+  --color-copyright: #c2c2c2;
 
   --color-html: #dd4b25;
   --color-css: #254bdd;
@@ -253,14 +256,14 @@ body {
 }
 
 .dark {
-  --color-hero-light: #435c82;
-  --color-hero-medium: #243349;
+  --color-hero-light: #353e4f;
   --color-body: #1e293b;
 
   --color-text-navbar: #505050;
   --color-text-navbarhover: #454545;
 
   --color-accent: #90a955;
+  --color-accenthover: #6e823e;
   --color-text-button: #394223;
   --color-text-buttonhover: #212614;
 
@@ -270,36 +273,58 @@ body {
   --color-card: #0f151e;
   --color-card-border: #696969;
 
+  --color-backgroundfooter: #1b2535;
+
   --color-button-seework: #38bdf8;
   --color-text-seework: #9ce0fe;
 
-  --color-paragraphs: #d0d0d0;
   --color-titles: #f0f0f0;
-  --color-name: #fff;
+  --color-paragraphs-about: #e5e5e5;
+  --color-paragraphs: #d0d0d0;
+
+  --color-copyright: #c2c2c2;
+
+  --color-html: #dd4b25;
+  --color-css: #254bdd;
+  --color-javascript: #d4b830;
+  --color-react: #61dbfb;
+  --color-next: #e5e5e5;
+  --color-tailwindcss: #35bef8;
 }
 
 .light {
-  --color-hero-light: red;
-  --color-hero-medium: red;
-  --color-body: red;
+  --color-hero-light: #e4e5e5;
+  --color-body: #f9f9f9;
 
-  --color-text-navbar: red;
-  --color-text-navbarhover: red;
+  --color-text-navbar: #252525;
+  --color-text-navbarhover: #000000;
 
-  --color-accent: red;
-  --color-text-button: red;
-  --color-text-buttonhover: red;
+  --color-accent: #8ba352;
+  --color-accenthover: #6e823e;
+  --color-text-button: #202020;
+  --color-text-buttonhover: #000000;
 
-  --color-navbar: red;
-  --color-navbarlight: red;
+  --color-navbar: rgba(139, 163, 82, 0.72);
+  --color-navbarlight: #b3d06c;
 
-  --color-card: red;
-  --color-card-border: red;
+  --color-card: #eff0f0;
+  --color-card-border: #b2d06b;
 
-  --color-button-seework: red;
-  --color-text-seework: red;
+  --color-backgroundfooter: #ebebeb;
 
-  --color-paragraphs: red;
-  --color-titles: red;
-  --color-name: red;
+  --color-button-seework: #295e74;
+  --color-text-seework: #204a5c;
+
+  --color-titles: #202020;
+  --color-paragraphs-about: #373737;
+  --color-paragraphs: #373737;
+
+  --color-copyright: #373737;
+
+  --color-html: #dd4b25;
+  --color-css: #254bdd;
+  --color-javascript: #d4b830;
+  --color-react: #61dbfb;
+  --color-next: #111111;
+  --color-tailwindcss: #35bef8;
 }
