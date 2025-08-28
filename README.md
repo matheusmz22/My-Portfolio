@@ -36,6 +36,6 @@ Portfolio Link: https://matheusmz.vercel.app/
 
 LinkedIn: https://www.linkedin.com/in/matheusmz/
 
-Email: [Your email]
+Email: matheusmzucchi@gmail.com
 
 Any feedback is more than welcome!
