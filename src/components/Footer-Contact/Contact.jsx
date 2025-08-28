@@ -76,6 +76,7 @@ function Contact({ isMobile }) {
           </address>
 
           <a
+            aria-label="Matheus's Resume"
             href="./Matheus-Zucchi-Resume.pdf"
             target="_blank"
             className={

@@ -118,6 +118,7 @@ function Hero({ isMobile }) {
               </p>
               <div className="flex flex-col items-center gap-4 mt-4   ">
                 <a
+                  aria-label="Matheus's Resume"
                   href="./Matheus-Zucchi-Resume.pdf"
                   target="_blank"
                   className="bg-navbarlight p-2.5 rounded-3xl text-text-button cursor-pointer w-54 text-[1.4rem] sm:text-2xl sm:p-3 sm:w-54 font-semibold transition-all"
@@ -125,6 +126,7 @@ function Hero({ isMobile }) {
                   View Resume
                 </a>
                 <a
+                  aria-label="Go to projects section"
                   href="#projects"
                   className="border border-button-seework rounded-3xl text-text-seework p-2 text-md cursor-pointer w-50  sm:text-lg "
                 >
@@ -170,12 +172,14 @@ function Hero({ isMobile }) {
               </p>
               <div className="flex gap-5 mt-5 ">
                 <a
+                  aria-label="View Matheus's Resume"
                   href="./Matheus-Zucchi-Resume.pdf"
                   className=" bg-navbarlight p-2.5 rounded-3xl text-text-button cursor-pointer w-43 text-lg hover:bg-accent font-semibold transition-all text-center"
                 >
                   View Resume
                 </a>
                 <a
+                  aria-label="See Matheus's works"
                   href="#projects"
                   className="flex items-center justify-center border border-button-seework rounded-3xl text-text-seework p-1 text-sm cursor-pointer w-28 hover:bg-button-seework hover:text-black transition-all text-center"
                 >

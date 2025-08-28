@@ -71,6 +71,7 @@ function Card({
               }
             >
               <a
+                aria-label="Check project's live demo"
                 href={liveDemoHref}
                 target="_blank"
                 className="hover:underline hover:text-accenthover flex items-center justify-center gap-3"
@@ -80,6 +81,7 @@ function Card({
               </a>
 
               <a
+                aria-label="Check project's github"
                 href={gitHubHref}
                 target="_blank"
                 className="hover:underline hover:text-accenthover flex items-center justify-center gap-3"

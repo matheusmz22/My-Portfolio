@@ -35,6 +35,7 @@ function Navbar({ isDarkMode, setIsDarkMode, isMobile }) {
         <div className="text-text-navbar mt-12">
           <header className="bg-navbar flex justify-between md:w-[47rem] md:h-19 lg:w-[58rem] mx-auto rounded-[1.1rem] lg:h-20 my-6 items-center p-5 font-semibold">
             <a
+              aria-label="Matheus's signature"
               href="/"
               className="font-signature font-bold text-[2.5rem] cursor-pointer md:text-3xl"
             >
@@ -43,6 +44,7 @@ function Navbar({ isDarkMode, setIsDarkMode, isMobile }) {
             <ul className="flex items-center justify-end gap-10 ">
               <li>
                 <a
+                  aria-label="Go to about section"
                   href="#about"
                   className="cursor-pointer hover:text-text-navbarhover text-2xl"
                 >
@@ -51,6 +53,7 @@ function Navbar({ isDarkMode, setIsDarkMode, isMobile }) {
               </li>
               <li>
                 <a
+                  aria-label="Go to projects section"
                   href="#projects"
                   className="cursor-pointer hover:text-text-navbarhover text-2xl"
                 >
@@ -59,6 +62,7 @@ function Navbar({ isDarkMode, setIsDarkMode, isMobile }) {
               </li>
               <li>
                 <a
+                  aria-label="Go to contact section"
                   href="#contact"
                   className="cursor-pointer hover:text-text-navbarhover text-2xl"
                 >

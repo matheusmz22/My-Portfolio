@@ -87,6 +87,7 @@ function About({ isMobile }) {
                   <GoDotFill className="h-2 mr-2" />
                   <div className="flex flex-wrap items-center gap-2">
                     <a
+                      aria-label="JavaScript Website"
                       href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                       target="_blank"
                     >
@@ -94,6 +95,7 @@ function About({ isMobile }) {
                     </a>
                     <span>|</span>
                     <a
+                      aria-label="HTML Website"
                       href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
                       target="_blank"
                     >
@@ -101,6 +103,7 @@ function About({ isMobile }) {
                     </a>
                     <span>|</span>
                     <a
+                      aria-label="CSS Website"
                       href="https://developer.mozilla.org/en-US/docs/Web/CSS"
                       target="_blank"
                     >
@@ -113,6 +116,7 @@ function About({ isMobile }) {
                   <GoDotFill className="h-2 mr-2" />
                   <div className="flex flex-wrap items-center gap-2">
                     <a
+                      aria-label="React Website"
                       href="https://react.dev"
                       className="hover:text-react transition-colors"
                       target="_blank"
@@ -121,6 +125,7 @@ function About({ isMobile }) {
                     </a>
                     <span>|</span>
                     <a
+                      aria-label="Nextjs Website"
                       href="https://nextjs.org"
                       className="hover:text-next transition-colors"
                       target="_blank"
@@ -129,6 +134,7 @@ function About({ isMobile }) {
                     </a>
                     <span>|</span>
                     <a
+                      aria-label="tailwindcss Website"
                       href="https://tailwindcss.com"
                       className="hover:text-tailwindcss transition-colors"
                     >
@@ -185,6 +191,7 @@ function About({ isMobile }) {
                 <li className="flex items-center justify-start transition-all duration-200">
                   <GoDotFill className="h-2" />
                   <a
+                    aria-label="JavaScript Website"
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                     className="hover:text-javascript"
                     target="_blank"
@@ -193,6 +200,7 @@ function About({ isMobile }) {
                   </a>{" "}
                   <div className="h-5 w-1 border-r border-primary-400 mx-3 " />{" "}
                   <a
+                    aria-label="HTML Website"
                     href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
                     className="hover:text-html"
                     target="_blank"
@@ -201,6 +209,7 @@ function About({ isMobile }) {
                   </a>{" "}
                   <div className="h-5 w-1 border-r border-primary-400 mx-3 " />{" "}
                   <a
+                    aria-label="CSS Website"
                     href="https://developer.mozilla.org/en-US/docs/Web/CSS"
                     target="_blank"
                     className="hover:text-css"
@@ -211,6 +220,7 @@ function About({ isMobile }) {
                 <li className="flex items-center justify-start transition-all duration-200">
                   <GoDotFill className="h-2" />
                   <a
+                    aria-label="React Website"
                     href="https://react.dev"
                     target="_blank"
                     className="hover:text-react"
@@ -219,6 +229,7 @@ function About({ isMobile }) {
                   </a>{" "}
                   <div className="h-5 w-1 border-r border-primary-400 mx-3" />
                   <a
+                    aria-label="Nextjs Website"
                     href="https://nextjs.org"
                     target="_blank"
                     className="hover:text-next"
@@ -227,6 +238,7 @@ function About({ isMobile }) {
                   </a>{" "}
                   <div className="h-5 w-1 border-r border-primary-400 mx-3" />
                   <a
+                    aria-label="tailwindcss Website"
                     href="https://tailwindcss.com"
                     className="hover:text-tailwindcss"
                     target="_blank"

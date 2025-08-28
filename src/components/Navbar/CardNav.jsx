@@ -131,6 +131,7 @@ const CardNav = ({
 
           <div className="logo-container">
             <a
+              aria-label="Matheus's signature"
               href="/"
               className="text-2xl text-text-navbar font-signature font-bold"
             >
