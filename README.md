@@ -6,6 +6,11 @@ This is my personal developer portfolio, built to showcase my projects, skills, 
 
 Portfolio Link: https://matheusmz.vercel.app/
 
+<img width="1899" height="701" alt="image" src="https://github.com/user-attachments/assets/9a86bcaa-d798-4f25-87b6-38b9538f3d0d" />
+
+
+
+
 ***🚀🛠️ Tech Stack***🚀
 
 * Frontend: React, TailwindCSS
