@@ -1,12 +1,46 @@
-# React + Vite
+**🌐 My Developer Portfolio**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio, built to showcase my projects, skills, and journey as a web developer. It’s a central place where I share what I’ve been learning and building as I grow toward full-stack development.
 
-Currently, two official plugins are available:
+***🚀 Live Demo***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Portfolio Link: https://matheusmz.vercel.app/
 
-## Expanding the ESLint configuration
+<img width="1899" height="701" alt="image" src="https://github.com/user-attachments/assets/9a86bcaa-d798-4f25-87b6-38b9538f3d0d" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+***🚀🛠️ Tech Stack***🚀
+
+* Frontend: React, TailwindCSS
+
+* Animations: GSAP (for project highlights)
+
+* Deployment: Vercel
+
+***🚀✨ Features***🚀
+
+* Modern and responsive design
+
+* Project cards with hover animations
+
+* Links to GitHub repositories and live demos
+
+* Easy to update and maintain
+
+***🚀📚 What I’m Learning Next***🚀
+
+* Angular for front-end frameworks
+
+* Node.js for back-end development
+
+* Full-Stack application workflows
+
+***🚀📬 Contact***🚀
+
+LinkedIn: https://www.linkedin.com/in/matheusmz/
+
+Email: matheusmzucchi@gmail.com
+
+Any feedback is more than welcome!
