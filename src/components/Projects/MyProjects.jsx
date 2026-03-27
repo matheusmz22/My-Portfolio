@@ -1,7 +1,6 @@
-import gsap from "gsap";
 import Card from "./Card";
 
-function MyProjects({ isMobile }) {
+function MyProjects({isMobile}) {
   return (
     <section id="projects">
       <div id="projects-content" className="mt-30 mb-20 p-6 text-paragraphs">
@@ -40,20 +39,23 @@ function MyProjects({ isMobile }) {
             isMobile={isMobile}
           />
           <Card
-            screenshot="/images/TheWildOasis.png"
-            technologies={[
-              "React",
-              "Next.js",
-              "tailwindcss",
-              "Supabase + OAuth",
-            ]}
-            title="The Wild Oasis"
-            description="Full-featured cabin booking platform built with OAuth authentication, real-time database integration, and Supabase backend."
-            liveDemoHref="https://the-wild-oasis-website-matheusmz.vercel.app/"
-            gitHubHref="https://github.com/matheusmz22/The-Wild-Oasis-Website"
+            screenshot="/images/FarmSync.png"
+            technologies={["React", "Recharts", "tailwindcss", "localStorage"]}
+            title="FarmSync"
+            description="Modern farm management dashboard where farmers can track crops, visualize harvest predictions, and manage listings through a clean, data-driven React interface."
+            liveDemoHref="https://farmsyncui.vercel.app"
+            gitHubHref="https://github.com/matheusmz22/FarmSync-FrontEnd"
             isMobile={isMobile}
           />
-          <Card isMobile={isMobile} />
+          <Card
+            screenshot="/images/JuliaMachado.png"
+            technologies={["React", "tailwindcss"]}
+            title="Julia Machado's Portfolio"
+            description="Creative portfolio showcasing custom costume design projects, highlighting craftsmanship, creativity, and attention to detail."
+            liveDemoHref="https://juliamachado.vercel.app"
+            gitHubHref="https://github.com/matheusmz22/Portfolio-Julia"
+            isMobile={isMobile}
+          />
         </div>
       </div>
     </section>
