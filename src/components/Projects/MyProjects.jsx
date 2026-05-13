@@ -31,7 +31,7 @@ function MyProjects({isMobile}) {
           />
           <Card
             screenshot="/images/coursealign.png"
-            technologies={["React", "tailwindcss"]}
+            technologies={["React", "tailwindcss", "FastAPI"]}
             title="CourseAlign"
             description="Modern schedule planning web app for SDSU students that generates optimized class schedules based on course selection and time preferences. Interactive calendar interface and real-time schedule visualization built with React and FastAPI."
             liveDemoHref="https://coursealign.vercel.app/"
