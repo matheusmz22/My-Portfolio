@@ -30,12 +30,12 @@ function MyProjects({isMobile}) {
             isMobile={isMobile}
           />
           <Card
-            screenshot="/images/FastReactPizza.png"
+            screenshot="/images/coursealign.png"
             technologies={["React", "tailwindcss"]}
-            title="Fast React Pizza Co."
-            description="Modern pizza ordering app where users can customize pizzas, manage their cart, and track orders in real time with React."
-            liveDemoHref="https://fast-react-pizza-reactcourse-mmz.netlify.app/"
-            gitHubHref="https://github.com/matheusmz22/fast-react-pizza-ReactCourse"
+            title="CourseAlign"
+            description="Modern schedule planning web app for SDSU students that generates optimized class schedules based on course selection and time preferences. Interactive calendar interface and real-time schedule visualization built with React and FastAPI."
+            liveDemoHref="https://coursealign.vercel.app/"
+            gitHubHref="https://github.com/matheusmz22/coursealign"
             isMobile={isMobile}
           />
           <Card
